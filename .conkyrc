@@ -25,16 +25,14 @@ conky.config = {
 	use_xft = true,
 	xftalpha = 1,
 	font = "Open Sans:size=10",
-	default_color = 'FFFFFF',
-	color0 = 'FFFFFF',
-	color1 = 'FFFFFF',
+	default_color = 'FFFFFF'
 };
 
 conky.text = [[
-	${font Open Sans:size=70}${color0}\
+	${font Open Sans:size=70}${default_color}\
 	$alignr ${time %H:%M}
-	${font Open Sans:size=24}${color0}\
+	${font Open Sans:size=24}${default_color}\
 	$alignr ${time %A}
-	${font Open Sans:size=24}${color0}\
+	${font Open Sans:size=24}${default_color}\
 	$alignr ${time %d %B, %Y}
 ]];
