@@ -1,1 +1,1 @@
-# My .conkyrc
+# My dotfiles
