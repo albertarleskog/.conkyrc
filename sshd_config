@@ -29,7 +29,7 @@ Port 3000
 # Authentication:
 
 LoginGraceTime 1m
-PermitRootLogin no
+PermitRootLogin prohibit-password
 #StrictModes yes
 MaxAuthTries 3
 MaxSessions 1
