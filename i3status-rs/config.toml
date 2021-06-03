@@ -1,0 +1,15 @@
+icons = "awesome"
+theme = "modern"
+
+[[block]]
+block = "time"
+interval = 60
+format = "%R"
+
+[[block]]
+block = "sound"
+
+[[block]]
+block = "custom"
+command = "hostname --all-ip-addresses"
+interval = 60

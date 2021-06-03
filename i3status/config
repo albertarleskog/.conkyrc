@@ -11,7 +11,6 @@ general {
   output_format = "i3bar"
   colors = false
   interval = 5
-  markup = "pango"
 }
 
 # Orders
@@ -28,12 +27,12 @@ time {
 volume master {
   separator = false
   device = "pulse"
-  format = "<span font_desc='Open sans 10' foreground='#f8f8f2'> 🎵 %volume </span>"
-  format_muted = "<span font_desc='Open sans 10' foreground='#f8f8f2'>  </span>"
+  format = " 🎵 %volume "
+  format_muted = "  "
 }
 
 ethernet _first_ {
   separator = false
-  format_up = "<span font_desc='Open sans 10' foreground='#f8f8f2'>  %ip </span>"
+  format_up = "  %ip "
   format_down = " Disconnected "
 }
